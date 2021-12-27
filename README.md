@@ -40,7 +40,7 @@ files:
 mkdir build
 cd build
 cmake ..
-cmake --build ..
+cmake --build .
 ```
 
 If you want to use a different installation prefix than the default,
@@ -53,7 +53,7 @@ installed in parallel, I could use `/usr/local/pgsql/11.7` like this:
 mkdir build
 cd build
 cmake .. -DPGPATH=/usr/local/pgsql/11.7
-cmake --build ..
+cmake --build .
 ```
 
 ## Creating Extensions
